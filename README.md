@@ -54,4 +54,4 @@ For example, to run the solution for the chessboard exercise from Chapter 2:
 
 ## License
 
-MIT License.
+MIT License. See the [LICENSE](LICENSE) file for more details.
