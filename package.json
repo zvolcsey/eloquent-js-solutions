@@ -1,0 +1,25 @@
+{
+  "name": "eloquent-js-solutions",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This repository contains my solutions to the exercises from the Eloquent JavaScript book (4th edition, 2024) by Marijn Haverbeke.",
+  "scripts": {
+    "clean": "rimraf generated",
+    "build": "tsc",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "eloquent-js-solutions",
+    "exercises-solutions"
+  ],
+  "author": "Zoltán Völcsey",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zvolcsey/eloquent-js-solutions.git"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "typescript": "^5.5.4"
+  }
+}
